@@ -67,17 +67,18 @@ public class practise {
      if (num % 5 == 0 && num % 3 == 0) {
         System.out.println("fizzbuzz");
 
-     } else {
+         } else {
 
-      if (num % 3 == 0) {
-        System.out.println("buzz");
+            if (num % 3 == 0) {
+            System.out.println("buzz");
 
-      } else if (num % 5 == 0) { 
-        System.out.println("fizz");
-       } else {
+              } else if (num % 5 == 0) { 
+               System.out.println("fizz");
+
+             } else {
         
-        System.out.println(num);
-       }
+           System.out.println(num);
+        }
    
      }
    }
