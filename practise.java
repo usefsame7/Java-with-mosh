@@ -12,7 +12,6 @@ public class practise {
      System.out.print("principal: ");
      int principal = scanner.nextInt();
 
-
   
      System.out.print("annual rate: ");
      float annualRate = scanner.nextFloat();
