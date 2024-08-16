@@ -8,22 +8,27 @@ public class practise {
   public static void main(String[] args) {
     
      Scanner scanner = new Scanner(System.in);
-     int p = scanner.nextInt();
 
+     System.out.print("principal: ");
+     int principal = scanner.nextInt();
+
+
+  
+     System.out.print("annual rate: ");
      float annualRate = scanner.nextFloat();
      float r = annualRate / 100/ 12; 
 
 
+     System.out.print("period: ");  
      float period = scanner.nextFloat();
      float n = period * 12;
 
 
      double k = Math.pow(1+r, n);
+     double mortgage = (principal * r * k ) / (k - 1);
 
-     double mortgage = (p * r * k ) / (k - 1);
 
      String result = NumberFormat.getCurrencyInstance().format(mortgage);
-   
      System.out.println("mortgage: " + result);
     
 
@@ -31,15 +36,15 @@ public class practise {
 
 
       
-  // the ternary operator
-  // the condition ? "if it's true": "false"
+     // the ternary operator
+     // the condition ? "if it's true": "false"
 
 
-  // ex
+     // ex
 
-  //    int money = 50;
-  //    String classDegree = money > 40 ? "first" : "Economy";
-  //    System.out.println(classDegree);
+     int money = 50;
+     String classDegree = money > 40 ? "first" : "Economy";
+     System.out.println(classDegree);
 
 
 
@@ -76,5 +81,5 @@ public class practise {
        }
    
      }
- }
+   }
 }
