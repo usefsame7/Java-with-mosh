@@ -2,7 +2,7 @@ import java.text.NumberFormat;
 import java.util.Scanner;
 
 
-
+ // mortgage calculator
 public class practise {
 
   public static void main(String[] args) {
